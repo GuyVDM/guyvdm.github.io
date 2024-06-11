@@ -560,7 +560,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #B90070;
 }
 
 .navbar-b .navbar-brand {
@@ -611,7 +611,7 @@ a:hover {
 .navbar-toggler span 
 {
   display: block;
-  background-color: #fff;
+  background-color: #5e0039;
   height: 3px;
   width: 25px;
   margin-top: 4px;
