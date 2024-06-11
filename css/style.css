@@ -442,26 +442,36 @@ a:hover {
 //--//-->   NAVBAR
 ======================================*/
 
-.navbar-b {
+.navbar-b 
+{
   transition: all .5s ease-in-out;
   background-color: transparent;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
 }
 
-.navbar-b.navbar-reduce {
+.navbar.navbar-b.navbar-expand-md.fixed-top.navbar-reduce 
+{
+    outline: 3px solid #5E0039;
+    background-color: #141414E0
+}
+
+.navbar-b.navbar-reduce
+{
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
 .navbar-b.navbar-trans .nav-item,
-.navbar-b.navbar-reduce .nav-item {
+.navbar-b.navbar-reduce .nav-item 
+{
   position: relative;
   padding-right: 10px;
   padding-left: 0;
 }
 
 .navbar-b.navbar-trans .nav-link,
-.navbar-b.navbar-reduce .nav-link {
+.navbar-b.navbar-reduce .nav-link 
+{
   color: #5E0039;
   text-transform: uppercase;
   font-weight: 600;
@@ -523,22 +533,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #000;
+  color: #b90070;
+    text-shadow: 
+        1px 1px 0px rgba(128, 0, 128, 0.5), /* slightly offset */
+        2px 2px 0px rgba(128, 0, 128, 0.4), /* more offset */
+  
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #000;
+  background-color: #5E0039;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #000;
+  color: #5E0039;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #000;
+  color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
@@ -594,7 +608,8 @@ a:hover {
   outline: 0;
 }
 
-.navbar-toggler span {
+.navbar-toggler span 
+{
   display: block;
   background-color: #fff;
   height: 3px;
@@ -1642,10 +1657,12 @@ footer .credits a {
 
   .navbar-b.navbar-trans .nav-link:before,
   .navbar-b.navbar-reduce .nav-link:before {
+	  
     margin-left: 18px;
   }
 
   .intro .intro-title {
+	  
     font-size: 4.5rem;
   }
 

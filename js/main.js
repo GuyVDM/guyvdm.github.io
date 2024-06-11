@@ -82,10 +82,11 @@
 			$('.navbar-expand-md').addClass('navbar-trans');
 			$('.navbar-expand-md').removeClass('navbar-reduce');
 		}
-		if ($(window).scrollTop() > top) {
-			$('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
+		if ($(window).scrollTop() > top)
+        {
+			$('.scrolltop-mf').fadeIn(5000, "easeInOutExpo");
 		} else {
-			$('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
+			$('.scrolltop-mf').fadeOut(5000, "easeInOutExpo");
 		}
 	});
 
@@ -100,18 +101,4 @@
 			backSpeed: 30
 		});
 	}
-
-	/*--/ Testimonials owl /--*/
-	$('#testimonial-mf').owlCarousel({
-		margin: 20,
-		autoplay: true,
-		autoplayTimeout: 4000,
-		autoplayHoverPause: true,
-		responsive: {
-			0: {
-				items: 1,
-			}
-		}
-	});
-
 })(jQuery);
