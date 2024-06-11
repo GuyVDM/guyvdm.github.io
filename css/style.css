@@ -366,9 +366,11 @@ a:hover {
 /* Back to top button */
 
 .back-to-top {
+  box-shadow: 0 0 10px #ffffff;
+  outline: 4px solid #5e0039;
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #b90070;
   color: #fff;
   width: 44px;
   height: 44px;
