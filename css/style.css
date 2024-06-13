@@ -1772,3 +1772,68 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+.icon-projectpage-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-projectpage 
+{
+	max-width: 400px;
+	width:  auto;
+    height: auto; 
+}
+
+.project-info-box 
+{
+	display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+	
+	width: 170px;
+	height: 130px;
+	
+	background-color: #2B2B2B;
+	box-shadow: 0px 1px 10px 0px #444444;
+	
+	border-radius: 20px 20px 20px 20px;
+	outline: 4px solid #3b3b3b;
+	
+	transition: all 1s ease-out; 
+}
+
+.project-info-box:hover 
+{
+	outline: 4px solid #ffffff;
+	box-shadow: 0px 1px 10px 0px #ffffff;
+}
+
+.project-info-box:hover  .project-info-box-text
+{
+	color: #ffffff;
+}
+
+.project-info-box-icon 
+{
+	width: 40px;
+	height: 40px;
+}
+
+.project-info-box-text 
+{
+    justify-content: flex-start;
+    align-items: center;
+	font-weight: 500;
+	color: #6b6b6b;
+	margin-top: 50px;
+}
+
+.flex-row .project-info-box
+{
+    padding: 10px;
+    margin-top: 15px;
+}
