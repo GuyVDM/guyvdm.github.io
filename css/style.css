@@ -30,6 +30,12 @@ h6 {
   color: #ffffff;
 }
 
+h7 
+{
+	color: #ffffff;
+	font-size: 18px;
+}
+
 hr {
 	border: 2px solid #5E0039; /* Set the border color to red */
 	margin: 0px 0; /* Add margin for spacing */
@@ -57,7 +63,34 @@ a:hover {
     margin: 5px; /* Add some spacing between images */
 }
 
+.flex-row-entry 
+{
+	margin-right: 20px;
+}
 
+.spacing 
+{
+	height: 40px;
+}
+
+
+.trailer
+{
+    width: 720px; /* Ensure it fills the available width */
+    max-width: 600px; /* Set a maximum width */
+    height: auto; /* Allow height to adjust proportionally */
+    max-height: 80vh; /* Set a maximum height */
+    border-radius: 20px; /* Simplified border-radius for all corners */
+    outline: 4px solid #3b3b3b;
+    box-shadow: 0 13px 8px -10px #ffffff;
+    transition: all 1s ease-out; 
+}
+
+.trailer:hover 
+{
+	outline: 4px solid #ffffff;
+	box-shadow: 0px 1px 10px 0px #ffffff;
+}
 
 /* Styling for the background video */
 .bg-video {
@@ -239,6 +272,25 @@ a:hover {
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   outline: 4px solid #5E0039; /* Example outline with a red color and 2px width */
+}
+
+.box-shadow-full .explanation
+{
+	max-width: 400px;
+	width: auto;
+	height: auto;
+}
+
+.container-page 
+{
+	top: 0;
+	display: flex;
+	margin-top: 20px;
+	width: auto;
+	height: 100%; 
+	flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 /*------/ Socials /------*/
@@ -768,10 +820,25 @@ a:hover {
 
 .flex-row
 {
+	position: relative;
 	flex-wrap: wrap;   
 	display: flex;         
 	justify-content: space-around; 
 	align-items: center;    
+}
+
+.flex-row-top-content 
+{
+    display: flex;
+    flex-direction: row; /* Items in a row */
+    flex-wrap: wrap; /* Wrap items to new rows if necessary */
+    align-items: flex-start; /* Align items to the start vertically */
+    justify-content: flex-start; /* Align items to the start horizontally */
+}
+
+.flex-row-column
+{
+    padding: 20px; /* Example padding */
 }
 
 .col-md-4.flex-container 
@@ -1806,6 +1873,36 @@ footer .credits a {
 	transition: all 1s ease-out; 
 }
 
+.project-info-box.summary
+{	
+    overflow: hidden; /* Hide overflowing content */
+    display: flex;
+    flex-direction: column-reverse; /* Change flex direction to column-reverse */
+    justify-content: flex-end; /* Align items to the bottom */
+    align-items: center; /* Center items horizontally */
+    width: 500px;
+    
+    min-height: 130px;
+	height: auto;
+	
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal; /* Preserve whitespace */
+}
+
+.text-wrapper-info-box 
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 90%;
+	height: 95%;
+}
+
+.project-section 
+{
+	
+}
+
 .project-info-box:hover 
 {
 	outline: 4px solid #ffffff;
@@ -1821,19 +1918,36 @@ footer .credits a {
 {
 	width: 40px;
 	height: 40px;
+	margin-bottom: 50px;
 }
 
 .project-info-box-text 
 {
-    justify-content: flex-start;
-    align-items: center;
+	text-align: center;
+	position: absolute;
+    vertical-align: top;
 	font-weight: 500;
 	color: #6b6b6b;
-	margin-top: 50px;
+	margin-top: 40px;
+    max-width: 80%; 
+    width: fit-content; 
+
+}
+
+.project-info-box-text .double
+{
+	margin-top: 300px;
 }
 
 .flex-row .project-info-box
 {
     padding: 10px;
     margin-top: 15px;
+}
+
+.game-title 
+{
+	 display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
