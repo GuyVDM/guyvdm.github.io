@@ -31,7 +31,7 @@ h6 {
 }
 
 hr {
-	border: 2px solid #7C7C7C; /* Set the border color to red */
+	border: 2px solid #5E0039; /* Set the border color to red */
 	margin: 0px 0; /* Add margin for spacing */
 }
 
@@ -965,7 +965,7 @@ a:hover {
   transition: width 0.5s ease;
 }
 
-@media (max-width: 768px) 
+@media (max-width: 1000px) 
 {
     .button-expansion
 	{
