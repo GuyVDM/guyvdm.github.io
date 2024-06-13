@@ -735,6 +735,38 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+@media (max-width: 1000px)
+{
+  .row 
+  {
+	display: flex; 
+    justify-content: center;
+    align-items: row	; 
+  }
+  
+  .me 
+  {
+	display: flex; 
+    justify-content: center;
+    align-items: row	; 
+  }
+  
+  .about-img 
+  {
+	display: flex; 
+    justify-content: center;
+    align-items: row; 
+  }
+  
+  .col-md-4 
+  {
+	display: flex; 
+    justify-content: center;
+    align-items: row	; 
+  }
+}
+
+
 .about-mf .about-img {
   margin-bottom: 2rem;
 }
