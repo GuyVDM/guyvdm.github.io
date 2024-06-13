@@ -766,6 +766,12 @@ a:hover {
   }
 }
 
+.col-md-4 > .bottom-left-item 
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
 
 .about-mf .about-img {
   margin-bottom: 2rem;
