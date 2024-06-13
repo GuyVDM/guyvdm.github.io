@@ -130,7 +130,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #32004d;
+  background-color: #5E0039;
 }
 
 .overlay-mf {
@@ -238,7 +238,7 @@ a:hover {
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-  outline: 2px solid #7C7C7C; /* Example outline with a red color and 2px width */
+  outline: 4px solid #5E0039; /* Example outline with a red color and 2px width */
 }
 
 /*------/ Socials /------*/
@@ -748,7 +748,7 @@ a:hover {
   {
 	display: flex; 
     justify-content: center;
-    align-items: row	; 
+    align-items: row; 
   }
   
   .about-img 
@@ -1194,10 +1194,10 @@ a:hover {
 .me 
 {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	border-radius: 50%; /* Make the edges fully rounded (circular) */
-	border: 4px solid gray;
+	border: 4px solid #5E0039;
 }
 
 .work-box.red:hover 
