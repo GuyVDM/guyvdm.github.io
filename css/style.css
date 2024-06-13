@@ -762,15 +762,24 @@ a:hover {
   {
 	display: flex; 
     justify-content: center;
-    align-items: row	; 
+    align-items: center;    
   }
 }
 
-.col-md-4 > .bottom-left-item 
+.flex-row
 {
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
+	flex-wrap: wrap;   
+	display: flex;         
+	justify-content: space-around; 
+	align-items: center;    
+}
+
+.col-md-4.flex-container 
+{
+	display: flex;
+	justify-content: center; 
+	align-items: center;     
+	height: 100%;            
 }
 
 .about-mf .about-img {
