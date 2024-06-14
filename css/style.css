@@ -52,15 +52,17 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
-.skill-image-container {
-    display: flex; /* Use flexbox layout */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+.skill-image-container
+{
+    display: flex;
+    flex-wrap: wrap; 
 }
 
-.skill-image-container img {
-    width: 50px; /* Set the width of each image */
-    height: auto; /* Allow the height to adjust proportionally */
-    margin: 5px; /* Add some spacing between images */
+.skill-image-container img 
+{
+    width: 50px; 
+    height: auto;
+    margin: 5px;
 }
 
 .flex-row-entry 
@@ -73,14 +75,22 @@ a:hover {
 	height: 40px;
 }
 
+hr.flex 
+{
+    margin: 0px auto;
+    border-top: 3px solid #ffffff;
+	max-width: 45%;
+}
+
 
 .trailer
 {
-    width: 720px; /* Ensure it fills the available width */
-    max-width: 600px; /* Set a maximum width */
-    height: auto; /* Allow height to adjust proportionally */
-    max-height: 80vh; /* Set a maximum height */
-    border-radius: 20px; /* Simplified border-radius for all corners */
+	margin-bottom: 20px;
+    width: 720px; 
+    max-width: 600px; 
+    height: auto; 
+    max-height: 80vh; 
+    border-radius: 20px; 
     outline: 4px solid #3b3b3b;
     box-shadow: 0 13px 8px -10px #ffffff;
     transition: all 1s ease-out; 
@@ -92,16 +102,15 @@ a:hover {
 	box-shadow: 0px 1px 10px 0px #ffffff;
 }
 
-/* Styling for the background video */
-.bg-video {
+.bg-video
+{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Set the width of the video to match the container */
-    height: 100%; /* Set the height of the video to match the container */
-    object-fit: cover; /* Ensure the video covers the entire container */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
-
 
 .p-r {
   position: relative;
@@ -829,16 +838,29 @@ a:hover {
 
 .flex-row-top-content 
 {
-    display: flex;
-    flex-direction: row; /* Items in a row */
-    flex-wrap: wrap; /* Wrap items to new rows if necessary */
-    align-items: flex-start; /* Align items to the start vertically */
-    justify-content: flex-start; /* Align items to the start horizontally */
+	display: flex; 
+    justify-content: center;
+    align-items: flex-start;    
+    flex-direction: row; 
+    flex-wrap: wrap; 
 }
+
+@media (max-width: 769px)
+ {
+    .flex-row-top-content
+	{
+        flex-direction: column;
+    }
+}
+
 
 .flex-row-column
 {
-    padding: 20px; /* Example padding */
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-md-4.flex-container 
@@ -1269,24 +1291,28 @@ a:hover {
 
 .work-box.red:hover 
 {
+  box-shadow: 0 0 30px red;
   -webkit-border: 4px solid red;
   border: 4px solid red;
 }
 
 .work-box.yellow:hover 
 {
+  box-shadow: 0 0 30px yellow;
   -webkit-border: 4px solid yellow;
   border: 4px solid yellow;
 }
 
 .work-box.green:hover 
 {
+  box-shadow: 0 0 30px green;
   -webkit-border: 4px solid green;
   border: 4px solid green;
 }
 
 .work-box.purple:hover 
 {
+  box-shadow: 0 0 30px purple;
   -webkit-border: 4px solid purple;
   border: 4px solid purple;
 }
@@ -1854,6 +1880,15 @@ footer .credits a {
     height: auto; 
 }
 
+.project-page-image 
+{
+	max-width: 860px;
+	
+	height: auto;
+	border-radius: 20px 20px 20px 20px;
+	border: 4px solid #444444;
+}
+
 .project-info-box 
 {
 	display: flex;
@@ -1861,25 +1896,28 @@ footer .credits a {
     justify-content: center; 
     align-items: center; 
 	
+	padding: 20;
+	
 	width: 170px;
 	height: 130px;
 	
 	background-color: #2B2B2B;
 	box-shadow: 0px 1px 10px 0px #444444;
-	
-	border-radius: 20px 20px 20px 20px;
 	outline: 4px solid #3b3b3b;
+	border-radius: 20px 20px 20px 20px;
+
 	
 	transition: all 1s ease-out; 
 }
 
 .project-info-box.summary
 {	
-    overflow: hidden; /* Hide overflowing content */
+    overflow: hidden; 
     display: flex;
-    flex-direction: column-reverse; /* Change flex direction to column-reverse */
-    justify-content: flex-end; /* Align items to the bottom */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column-reverse;
+    justify-content: flex-end; 
+    align-items: center; 
+	max-width: 100%;
     width: 500px;
     
     min-height: 130px;
@@ -1887,7 +1925,12 @@ footer .credits a {
 	
     word-wrap: break-word; 
     overflow-wrap: break-word; 
-    white-space: normal; /* Preserve whitespace */
+    white-space: normal; 
+}
+
+.project-info-box.summary.green 
+{
+	box-shadow: 0px 1px 20px 0px green;
 }
 
 .text-wrapper-info-box 
@@ -1927,7 +1970,7 @@ footer .credits a {
 	position: absolute;
     vertical-align: top;
 	font-weight: 500;
-	color: #6b6b6b;
+	color: #A5A5A5;
 	margin-top: 40px;
     max-width: 80%; 
     width: fit-content; 
