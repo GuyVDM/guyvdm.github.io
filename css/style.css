@@ -1245,12 +1245,22 @@ hr.flex
 
 .text-box.green 
 {
-	  background-color: green;
+	  background-color: #B1FA3A;
 }
 
 .text-box.red 
 {
 	  background-color: red;
+}
+
+.text-box.raspberri 
+{
+	  background-color: #C51A4A;
+}
+
+.text-box.brown 
+{
+	  background-color: #7F4213;
 }
 
 .text-box.yellow 
@@ -1296,6 +1306,20 @@ hr.flex
   border: 4px solid red;
 }
 
+.work-box.raspberri:hover 
+{
+  box-shadow: 0 0 30px #C51A4A;
+  -webkit-border: 4px solid #C51A4A;
+  border: 4px solid #C51A4A;
+}
+
+.work-box.brown:hover 
+{
+  box-shadow: 0 0 30px #7F4213;
+  -webkit-border: 4px solid #7F4213;
+  border: 4px solid #7F4213;
+}
+
 .work-box.yellow:hover 
 {
   box-shadow: 0 0 30px yellow;
@@ -1305,9 +1329,9 @@ hr.flex
 
 .work-box.green:hover 
 {
-  box-shadow: 0 0 30px green;
-  -webkit-border: 4px solid green;
-  border: 4px solid green;
+  box-shadow: 0 0 30px #B1FA3A;
+  -webkit-border: 4px solid #B1FA3A;
+  border: 4px solid #B1FA3A;
 }
 
 .work-box.purple:hover 
