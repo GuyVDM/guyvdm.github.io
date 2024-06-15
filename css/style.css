@@ -1256,6 +1256,17 @@ hr.flex
   align-items: center; 
 }
 
+.wip-box
+{
+  position: absolute;
+  opacity: 0;
+  width: 100%; 
+  height: auto;
+
+  margin-top: 50%;
+  display: flex; 
+}
+
 .text-box.green 
 {
 	  background-color: #B1FA3A;
@@ -1387,6 +1398,12 @@ hr.flex
 {
   opacity: 1;
 }
+
+.work-box:hover .work-img .wip-box 
+{
+  opacity: 1;
+}
+
 
 .work-box video 
 {
