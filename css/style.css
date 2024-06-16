@@ -1559,6 +1559,21 @@ hr.flex
   float: right;
 }
 
+.project-status-text 
+{
+	
+}
+
+.project-status-text.in-progress
+{
+	color: #ffff00;
+}
+
+.project-status-text.on-hold 
+{
+	color: #ff0000;
+}
+
 /*======================================
 //--//-->   BLOG-SINGLE
 ======================================*/
