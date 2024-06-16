@@ -1561,17 +1561,18 @@ hr.flex
 
 .project-status-text 
 {
-	
 }
 
 .project-status-text.in-progress
 {
 	color: #ffff00;
+    text-shadow: 1px 1px 3px #ffff00;
 }
 
 .project-status-text.on-hold 
 {
 	color: #ff0000;
+    text-shadow: 1px 1px 3px #ff0000;
 }
 
 /*======================================
