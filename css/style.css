@@ -2003,6 +2003,19 @@ footer .credits a {
 	box-shadow: 0px 1px 20px 0px green;
 }
 
+.project-info-box.summary.red 
+{
+	box-shadow: 0px 1px 20px 0px red;
+}
+
+.experience 
+{
+	width: 100%;
+	height: 100%;
+	-webkit-filter: drop-shadow(0px 0px 5px #5e0039);
+	filter: drop-shadow(#5e0039);
+}
+
 .text-wrapper-info-box 
 {
 	margin-top: 20px;
