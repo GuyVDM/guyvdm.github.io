@@ -1225,6 +1225,18 @@ hr.flex
 	bottom: 0;
 }
 
+.fixed-bottom-center-container 
+{
+	position: fixed;
+	flex-direction: column;
+    display: flex;
+    justify-content: vertical-align;
+	bottom: 0;
+	margin-left: 45%;
+	padding: 20px;
+	z-index: 999;
+}
+
 .gear
 {
   margin-bottom: 15px;
@@ -2027,6 +2039,16 @@ footer .credits a {
 .project-section 
 {
 	
+}
+
+.portfolio-wip 
+{
+	display: flex;
+    justify-content: center; 
+    align-items: center;
+	color: rgba(255, 0, 0, 255);
+	opacity: 0.5;
+	font-size: 25px;
 }
 
 .project-info-box:hover 
