@@ -1227,14 +1227,11 @@ hr.flex
 
 .fixed-bottom-center-container 
 {
-	position: fixed;
-	flex-direction: column;
-    display: flex;
-    justify-content: vertical-align;
-	bottom: 0;
-	margin-left: 45%;
-	padding: 20px;
-	z-index: 999;
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
 }
 
 .gear
@@ -2043,9 +2040,7 @@ footer .credits a {
 
 .portfolio-wip 
 {
-	display: flex;
-    justify-content: center; 
-    align-items: center;
+
 	color: rgba(255, 0, 0, 255);
 	opacity: 0.5;
 	font-size: 25px;
