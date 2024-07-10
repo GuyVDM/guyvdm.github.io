@@ -805,6 +805,13 @@ hr.flex
     align-items: row	; 
   }
   
+  .flex-row-cards 
+  {
+	display: flex; 
+    justify-content: center;
+    align-items: row	; 
+  }
+  
   .me 
   {
 	display: flex; 
@@ -834,6 +841,14 @@ hr.flex
 	display: flex;         
 	justify-content: space-around; 
 	align-items: center;    
+}
+
+.flex-row-cards
+{
+	flex-wrap: wrap; 
+	display: flex; 
+    justify-content: center;
+    align-items: row	; 
 }
 
 .flex-row-top-content 
