@@ -245,6 +245,39 @@
 			</div>
 		</div>
     </div>
+	
+	  <!-- Title Segment Seperator -->
+  <br>
+  <div class="flex-row">
+  <h2>Custom Engine Editor</h2>
+  </div>
+  <hr class="flex">
+  <!-- /END TITLE SEGMENT -->
+  
+  	<div class="container-page">  	
+		<div class="flex-row-top-content">
+			<div class="flex-row-column">
+				<img class="project-page-image" src="img/page/subnivis/player.gif" alt="Thumbnail" class="project-info-box-icon">
+			</div>		
+	
+			<div class="flex-row-column">
+				<div class="project-info-box summary">
+					<div class="text-wrapper-info-box">
+						<h7>
+						I was tasked with making the finalized player controller, which includes the animations, gun, hit visuals and navigation.
+						The animations were done manually as we didn't have time to implement a proper 3D animation system. The movement mainly was done
+						using a predefined timeline that would elapse over a specified duration.
+						<br><br>
+						The player head bopping was done using a basic sin wave, of which I also ended up binding to the weapons to make it bop alongside the player for it to simulate hand swinging movement.
+						<br><br>						
+						For the gun I used a separate timeline, where i specified a target rotation using a quaternion, and a target positional offset.
+						Everytime the player shoots I would set off the timeline, and used smoothstep make the start & end of the animation damped and more natural.
+						</h7>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
   
   <!--/ Section Contact-Footer Star /-->
   <section>
